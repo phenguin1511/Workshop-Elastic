@@ -1,3 +1,8 @@
+# URL gốc của site (đặt theo repo của bạn trên GitHub Pages)
+baseURL = "https://github.com/phenguin1511/Workshop-Elastic"
+relativeURLs = true
+canonifyURLs = true
+
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
@@ -6,16 +11,14 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
-  # Git hub repo link
   editURL = ""
   description = ""
   author = "journeyoftheaverageguy@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
 [Languages]
 [Languages.en]
 title = "AWS System Manager"
@@ -38,4 +41,3 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
-
